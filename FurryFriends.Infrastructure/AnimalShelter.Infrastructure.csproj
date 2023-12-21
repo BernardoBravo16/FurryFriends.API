@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Shared\" />
+    <Folder Include="Shared\Pictures\Animals\Dogs\" />
+    <Folder Include="Shared\Pictures\Animals\Cats\" />
+    <Folder Include="Shared\Pictures\Persons\Clients\" />
+    <Folder Include="Shared\Pictures\Persons\Employees\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FurryFriends.Application\FurryFriends.Application.csproj" />
+  </ItemGroup>
+
+</Project>
